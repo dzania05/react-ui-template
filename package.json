@@ -1,7 +1,11 @@
 {
   "name": "@dzania05/react-ui-template",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/dzania05"
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dzania05/react-ui-template.git"
   },
   "version": "0.0.1",
   "description": "React UI template based on Bulma css",
@@ -10,7 +14,7 @@
     "rollup": "rollup -c"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pandu Pranayuma",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.0",
