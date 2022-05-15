@@ -24,5 +24,6 @@ export type ButtonProps = {
   isLight?: boolean,
   isRounded?: boolean,
   size?: Size,
-  isOutlined?: boolean 
+  isOutlined?: boolean ,
+  onClick?: () => void
 }
