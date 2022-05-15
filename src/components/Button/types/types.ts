@@ -18,7 +18,7 @@ export enum SizeEnum {
 
 export type Size = `${SizeEnum}`
 
-export type ButtonProps {
+export type ButtonProps = {
   label: string,
   color?: Colors,
   isLight?: boolean,
